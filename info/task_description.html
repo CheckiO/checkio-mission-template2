@@ -24,17 +24,7 @@
         <strong>Example:</strong>
     </p>
 
-{% if is_js %}
-<pre class="brush: javascript">sumTwo(3, 2) == 5
-sumTwo(5, 7) == 12
-</pre>
-{% else %}
-<pre class="brush: python">sum_two(3, 2) == 5
-sum_two(5, 7) == 12
-</pre>
-{% endif %}
-</div>
-
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
 
 <!-- Here you can explain how it can be used in development -->
 <!-- The section is optional -->
