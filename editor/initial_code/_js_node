@@ -9,8 +9,8 @@ console.log('Example:');
 console.log(sumTwo(3, 2));
 
 // These "asserts" are used for self-checking
-assert.equal(sumTwo(3, 2), 5);
-assert.equal(sumTwo(5, 7), 12);
+assert.strictEqual(sumTwo(3, 2), 5);
+assert.strictEqual(sumTwo(5, 7), 12);
 
 console.log("Coding complete? Click 'Check' to earn cool rewards!");
     
