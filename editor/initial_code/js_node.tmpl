@@ -16,7 +16,7 @@ console.log(sumTwo(3, 2));
 // These "asserts" are used for self-checking
 {% block tests %}
 {% for t in tests %}
-assert.strictEqual({% block call %}sumTwo({{t.input.0}}, {{t.input.1}})
+assert.strictEqual({% block call %}sumTwo({{t.input.0|j}}, {{t.input.1|j}})
 {% endblock %}, {% block result %}{{t.answer|j}}{% endblock %});{% endfor %}
 {% endblock %}
 
