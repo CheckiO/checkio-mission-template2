@@ -1,7 +1,7 @@
 CheckiO Mission
 =====================
 
-The repository is using for sharin missions on CheckiO. 
+The repository is used for sharing missions on CheckiO. 
 
 URL for Python version: https://py.checkio.org
 
