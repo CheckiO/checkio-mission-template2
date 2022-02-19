@@ -14,7 +14,7 @@ print(mult_two(1, 2))
 
 {% block tests %}
 {% for t in tests %}
-assert {% block call %}mult_two({{t.input.0|p}}, {{t.input.1|p}})
+assert {% block call %}mult_two({{t.input|p_args}})
 {% endblock %} == {% block result %}{{t.answer|p}}{% endblock %}{% endfor %}
 {% endblock %}
 
