@@ -9,12 +9,12 @@ def sum_two(a: int, b: int) -> int:
 
 {% block example %}
 print('Example:')
-print(mult_two(1, 2))
+print(sum_two(1, 2))
 {% endblock %}
 
 {% block tests %}
 {% for t in tests %}
-assert {% block call %}mult_two({{t.input|p_args}})
+assert {% block call %}sum_two({{t.input|p_args}})
 {% endblock %} == {% block result %}{{t.answer|p}}{% endblock %}{% endfor %}
 {% endblock %}
 
