@@ -1,7 +1,6 @@
 from checkio.signals import ON_CONNECT
 from checkio import api
 from checkio.referees.io_template import CheckiOReferee
-from checkio.referees import cover_codes
 
 from tests import TESTS
 
