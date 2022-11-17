@@ -19,7 +19,7 @@ TESTS = {
             "input": [5, 7],
             "answer": 12,
             "explanation": "5+7=?"
-        }
+        },
     ],
     "Extra": [
         {
@@ -31,6 +31,6 @@ TESTS = {
             "input": [6, 7],
             "answer": 13,
             "explanation": "6+7=?"
-        }
+        },
     ]
 }
