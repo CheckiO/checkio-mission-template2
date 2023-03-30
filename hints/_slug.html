@@ -4,12 +4,12 @@ Below are the real hints for "Sort Except Zero" mission https://py.checkio.org/e
 
 The task is: Sort the integers in the list. But the position of zeros should not be changed.
 
-Do NOT include this block into your hints! It's just for your understanding the task. -->
+Do NOT include this block into your hints! It's just for your understanding the task. You may also change specific text, keeping the whole scenario -->
 
 <body data-author="YOUR_CHECKIO_USERNAME"> <!-- replace with your username at CheckiO -->
 <div class="question-answer">
     <div class="question">
-        <i>I have no idea how to start solving this mission.</i>
+        I have no idea how to start solving this mission.
     </div>
     <div class="answer">
         <p>
@@ -19,7 +19,7 @@ Do NOT include this block into your hints! It's just for your understanding the 
 </div>
 <div class="question-answer">
     <div class="question">
-        <i>I need help to continue the mission.</i>
+        I need help to continue the mission.
     </div>
     <div class="answer">
         <p>
@@ -30,7 +30,7 @@ Do NOT include this block into your hints! It's just for your understanding the 
 </div>
 <div class="question-answer">
     <div class="question">
-        <i>Need help!</i>
+        Need help!
     </div>
     <div class="answer">
         <p>
@@ -52,7 +52,7 @@ print(res) <!-- write print statement, if you need to show output -->
 </div>
 <div class="question-answer">
     <div class="question">
-        <i>I don't know what to do anymore. I need a little hint.</i>
+        I don't know what to do anymore. I need a little hint.
     </div>
     <div class="answer">
         <p>
@@ -75,7 +75,7 @@ print(res_2)
 </div>
 <div class="question-answer">
     <div class="question">
-        <i>Nothing works. SOS!</i>
+        Nothing works. SOS!
     </div>
     <div class="answer">
         <p>
@@ -92,14 +92,15 @@ for i in res:
 </div>
 <div class="question-answer">
     <div class="question">
-        <i>I don't want to give up, help!</i>
+        I don't want to give up, help!
     </div>
     <div class="answer">
         <p>
             All you have to do is wrap the code in a function expression and return <b class="code">res_2</b>. <!-- use such tag for code formatting inside text -->
         </p>
+        <div class="spoiler"> <!-- use this class to hide complete solutions -->
         <pre class="brush: python">
-from typing import Iterable
+from collections.abc import Iterable <!-- if you need Iterable or another type, import it from collections.abc-->
 
 
 def except_zero(items: list[int]) -> Iterable[int]:
@@ -111,19 +112,21 @@ def except_zero(items: list[int]) -> Iterable[int]:
 
     return res_2
         </pre>
+        </div>
     </div>
 </div>
 <div class="question-answer">
     <div class="question">
-        <i>I want to be the best of the best PROGRAMMERS!!! SHOW ME MORE SOLUTIONS!!1!!!11!</i>
+        I want to be the best of the best PROGRAMMERS!!! SHOW ME MORE SOLUTIONS!!1!!!11!
     </div>
     <div class="answer">
         <p>Okay, okay! That's the spirit!=)</p>
-        <p>
+        <p> <!-- add 1-2 solutions with explanations -->
             This solution will be difficult to understand. We can solve this mission using the <b class="code">numpy</b> module. Here you can read about this <a target="_blank" href='https://numpy.org/doc/'>module</a>.
         </p>
+        <div class="spoiler">
         <pre class="brush: python">
-from typing import Iterable
+from collections.abc import Iterable
 import numpy
 
 
@@ -134,11 +137,12 @@ def except_zero(items: list[int]) -> Iterable[int]:
 
     return items
         </pre>
+        </div>
     </div>
 </div>
 <div class="question-answer">
     <div class="question">
-        <i>Thanks!</i>
+        Thanks!
     </div>
     <div class="answer">
         <p>You are welcome!</p>
